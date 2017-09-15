@@ -1,0 +1,179 @@
+.nav
+{
+	position: fixed;
+	background-color: white;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	left: 0;
+	top: 0;
+	z-index : 2;
+}
+
+#logo
+{
+	height : 45%;
+	width : 135px;
+	padding-left : 290px;
+	z-index : 3;
+}
+
+.navList
+{
+	padding-left : 40px;
+}
+	
+#navList1
+{
+	padding-left : 400px;
+}
+
+/* * {box-sizing:border-box} */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1920px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Caption text */
+.text {
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.bottomText
+{
+	margin: auto;
+	color: #f2f2f2;
+	font-size: 25px;
+	text-align: center;
+	padding-right: 0px;
+	position : relative;
+	padding-bottom : 500px;
+}
+
+.bottomText td
+{
+	padding: 0 15px 0 15px;
+}
+
+.topText
+{
+  color: #f2f2f2;
+  font-size: 80px;
+  position: relative;
+  bottom: 8px;
+  padding-left : 740px;
+  text-align: center;
+}
+
+.links
+{
+	 color: #f2f2f2;
+}
+
+.links:active
+{
+	 color: orange;
+}
+
+.links:hover
+{
+	color: orange;
+}
+
+.links[tabindex]:focus
+{
+	 color: #f2f2f2;
+	 outline : none;
+}
+.links1
+{
+	 color: black;
+}
+
+.links1:active
+{
+	 color: orange;
+}
+
+.links1:hover
+{
+	color: orange;
+}
+
+.links1[tabindex]:focus
+{
+	 color: #f2f2f2;
+	 outline : none;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
